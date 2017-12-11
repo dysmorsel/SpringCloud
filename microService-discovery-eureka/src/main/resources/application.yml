@@ -1,11 +1,13 @@
 server:
   port: 8761
 eureka:
+  instance:
+    hostname: localhost
   client:
     healthcheck:
       enable: true
     service-url:
-      defaultZone: http://user:password123@localhost:8761/eureka
+      defaultZone: http://user:password123@${eureka.instance.hostname}:${server.port}/eureka
     register-with-eureka: false
     fetch-registry: false
 security:

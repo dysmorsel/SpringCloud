@@ -1,5 +1,5 @@
 server:
-  port: 7800
+  port: 7900
 spring:
   jpa:
     generate-ddl: false
@@ -19,4 +19,7 @@ eureka:
     service-url:
       defaultZone: http://user:password123@localhost:8761/eureka
   instance:
-    prefer-ip-address: true
+    prefer-ip-address: true #使用IP地址的形式来定义地址名称
+management:
+  security:
+    enabled: false
