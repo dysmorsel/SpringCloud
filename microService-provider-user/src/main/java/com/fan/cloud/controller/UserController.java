@@ -1,6 +1,6 @@
 package com.fan.cloud.controller;
 
-import com.fan.cloud.dao.dao.UserRepository;
+import com.fan.cloud.dao.UserRepository;
 import com.fan.cloud.entity.User;
 import com.netflix.appinfo.InstanceInfo;
 import org.springframework.cloud.client.ServiceInstance;

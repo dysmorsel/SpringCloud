@@ -23,6 +23,7 @@
 	<modules>
 		<module>microService-provider-user</module>
 		<module>microService-consumer-movie</module>
+		<module>microService-consumer-movie-feign</module>
 		<module>microService-consumer-movie-ribbon</module>
 		<module>microService-discovery-eureka</module>
 	</modules>

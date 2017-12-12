@@ -1,4 +1,4 @@
-package com.fan.cloud.dao.dao;
+package com.fan.cloud.dao;
 
 import com.fan.cloud.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
